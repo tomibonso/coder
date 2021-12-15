@@ -88,3 +88,50 @@ ul{
     background-color: rgb(4, 4, 207);
     grid-area: contacto;
 }
+.jug{
+    width: 700px;
+    height: 500px;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: row;
+}
+.arq{
+    width: 30%;
+    height: 150px;
+    margin: 0.5rem;
+    background-color: blue;
+}
+.med{
+    width: 30%;
+    height: 380px;
+    margin: 0.5rem;
+    background-color: black;
+}
+.def{
+    width: 30%;
+    height: 305px;
+    margin: 0.5rem;
+    background-color: rgb(7, 7, 150);
+}
+.del{
+    width: 30%;
+    height: 170px;
+    margin: 0.5rem;
+    background-color: rgb(155, 155, 7);
+}
+@media only screen and (min-width:768px){
+    h2{
+        font-size: 22px;
+    }
+    .titulo{
+        font-size: 40px;
+    }
+}
+@media only screen and (min-width:320px){
+    h2{
+        font-size: 20px;
+    }
+    .titulo{
+        font-size: 35px;
+    }
+}
