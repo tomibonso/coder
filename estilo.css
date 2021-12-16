@@ -59,6 +59,7 @@ ul{
     width: 95%;
     height: 400px;
     display: grid;
+    margin: auto;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(5, 1fr);
     gap: 10px;
@@ -94,6 +95,7 @@ ul{
     padding: 0.5rem;
     display: flex;
     flex-direction: row;
+    margin: auto;
 }
 .arq{
     width: 30%;
@@ -119,6 +121,9 @@ ul{
     margin: 0.5rem;
     background-color: rgb(155, 155, 7);
 }
+.scale:hover{
+    transform: scale(1.1, 1.1);
+}
 @media only screen and (min-width:768px){
     h2{
         font-size: 22px;
@@ -134,4 +139,35 @@ ul{
     .titulo{
         font-size: 35px;
     }
+}
+.noti{
+    width: 90%;
+    height: 400px;
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+    grid-template-areas: "rudi"
+    "tuch"
+    "footer";
+}
+.rudi{
+    background-color: rgb(5, 5, 163);
+    grid-area: rudi;
+    transition: all 2s ease;
+}
+.tuch{
+    background-color: rgb(8, 40, 219);
+    grid-area: tuch;
+    transition: all 2s ease;
+}
+.rudi:hover{
+    background-color: rgb(131, 131, 5);
+    transform: scale(1.1, 1.1);
+}
+.tuch:hover{
+    background-color: white;
+    transform: scale(1.1, 1.1);
+    color: black;
 }
