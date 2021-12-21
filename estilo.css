@@ -44,6 +44,9 @@ h2{
     text-decoration: underline;
     font-family: 'Amatic SC', cursive;
 }
+h3{
+    font-size: 19px;
+}
 a{
     color: white;
 }
@@ -105,19 +108,19 @@ ul{
 }
 .med{
     width: 30%;
-    height: 380px;
+    height: 390px;
     margin: 0.5rem;
     background-color: black;
 }
 .def{
     width: 30%;
-    height: 305px;
+    height: 320px;
     margin: 0.5rem;
     background-color: rgb(7, 7, 150);
 }
 .del{
     width: 30%;
-    height: 170px;
+    height: 160px;
     margin: 0.5rem;
     background-color: rgb(155, 155, 7);
 }
@@ -170,4 +173,12 @@ ul{
     background-color: white;
     transform: scale(1.1, 1.1);
     color: black;
+}
+.bd-example{
+    width: 600px;
+    margin: auto;
+}
+.bd-exampl{
+    width: 800px;
+    margin: auto;
 }
