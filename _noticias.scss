@@ -1,0 +1,32 @@
+.noti{
+    width: 90%;
+    height: 400px;
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+    grid-template-areas: "rudi"
+    "tuch"
+    "footer";
+}
+.rudi{
+    background-color: rgb(5, 5, 163);
+    grid-area: rudi;
+    transition: all 2s ease;
+    &:hover{
+        background-color: rgb(131, 131, 5);
+        transform: scale(1.1, 1.1);
+    }
+}
+.tuch{
+    background-color: rgb(8, 40, 219);
+    grid-area: tuch;
+    transition: all 2s ease;
+    &:hover{
+        background-color: white;
+        transform: scale(1.1, 1.1);
+        color: black;
+    }
+}
+

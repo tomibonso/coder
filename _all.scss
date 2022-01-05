@@ -1,0 +1,32 @@
+.titulo{
+    font-size: 45px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    width: 400px;
+    background-color: $azul-oscuro;
+    border-top:solid blue 5px;
+    border-bottom: solid blue 5px;
+    border-right: solid white 7px;
+    border-left: solid white 7px;
+}
+h2{
+    color: lightskyblue;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: underline;
+    font-family: 'Amatic SC', cursive;
+}
+h3{
+    font-size: 19px;
+}
+a{
+    color: white;
+}
+ul{
+    list-style-type: circle;
+}

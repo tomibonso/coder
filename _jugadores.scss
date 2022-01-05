@@ -1,0 +1,35 @@
+.jug{
+    width: 700px;
+    height: 500px;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+.arq{
+    width: 30%;
+    height: 150px;
+    margin: 0.5rem;
+    background-color: blue;
+}
+.def{
+    width: 30%;
+    height: 320px;
+    margin: 0.5rem;
+    background-color: rgb(7, 7, 150);
+}
+.med{
+    width: 30%;
+    height: 390px;
+    margin: 0.5rem;
+    background-color: black;
+}
+.del{
+    width: 30%;
+    height: 160px;
+    margin: 0.5rem;
+    background-color: rgb(155, 155, 7);
+}
+.scale:hover{
+    transform: scale(1.1, 1.1);
+}
