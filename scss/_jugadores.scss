@@ -1,0 +1,43 @@
+$bg1: blue;
+$bg2: rgb(7, 7, 150);
+$bg3: black;
+$bg4: rgb(155, 155, 7);
+
+@mixin estiloCaja ($bg) {
+    background-color: $bg;
+}
+.jug{
+    width: $ancho;
+    height: 500px;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+.arq{
+    width: 30%;
+    height: 150px;
+    margin: 0.5rem;
+    @include estiloCaja($bg1)
+}
+.def{
+    width: 30%;
+    height: 320px;
+    margin: 0.5rem;
+    @include estiloCaja($bg2)
+}
+.med{
+    width: 30%;
+    height: 390px;
+    margin: 0.5rem;
+    @include estiloCaja($bg3)
+}
+.del{
+    width: 30%;
+    height: 160px;
+    margin: 0.5rem;
+    @include estiloCaja($bg4)
+}
+.scale:hover{
+    transform: scale(1.1, 1.1);
+}
