@@ -28,19 +28,3 @@
         transform: scale(1.1, 1.1);
     }
 }
-.caja{
-    width: 70%;
-    padding: 0.5rem;
-    margin: 0.5rem;
-    display: row;
-    .cajaAzul{
-        @extend .caja;
-        border: 5px white solid;
-        background-color: blue;
-    }
-    .cajaNegra{
-        @extend .caja;
-        border: 5px white solid;
-        background-color: black;
-    }
-}
